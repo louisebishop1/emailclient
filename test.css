@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+margin: 0;
+}
+
+html {
+	background-image: url(Images/wrapperbg2.png);
+	background-repeat: no-repeat;
+	background-position: center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: sans-serif;
+	height:100%;
+	width:100%;
+/* IE work around, unfortunately disables any functionality*/
+	 filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/wrapperbg2.png', sizingMethod='scale'); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/wrapperbg2.png', sizingMethod='scale')";		
+}
+
+body {
+height:100%;
+margin: auto;
+width:70%;
+}
+
+.wrapper {
+	background-image: url(Images/wrapperbg.png);
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+	width:100%;
+}
+.footer, .push {
+height: 4em;
+}
+
+.wrapper2 {
+margin:0 auto;
+width:80%;
+}
+
+
+#nav {
+    
+    }
+.main {
+float:left;
+width:33%;
+padding:10px;
+   
+    }
+#header {
+	positon:relative;}
+
+#sidebar {
+	float: right;
+	width:40%;
+	
+	
+}
+
+
+#h1 {
+	color: #FFF;
+}
+
+
+.buttons {
+    background-color: #a1ad4b;
+	border: 1px solid #a1ad4b;
+    color: #FFF;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 5%;
+    padding: 5px;
+    text-transform: uppercase;
+    width: 200px;
+	
+  
+}
+.buttons:hover {
+	background-color: #000;
+	border: 1px solid #000;
+    color: #FFF;
+    padding: 5px;
+}
+
+/*Inbox*/
+
+#hidebtn {position:relative;}
+
+#createbtn {position:relative;}
+
+
+#navcontainer
+{ float:left;}
+
+/*Inbox Table Styling*/
+.inboxcontent{
+float: right;
+width:50%
+}
+
+#emaildiv{
+display: inherit;
+width: 75%;
+margin: 10px;
+float: right;
+}
+
+
+#inboxdiv
+{ 
+width: 75%;
+margin: 10px;
+float: right;
+}
+
+.table {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+    width: 90.5%;
+}
+.tablebg {
+    background-color: #F7FFE3;
+    padding: 5px;
+	text-align: centre;
+	border-style:none;
+}
+.th, .th1, .th2, .th3, .th4 {
+    background-color: #606030;
+    text-align: centre;
+	padding:5px;
+	color: #fff;
+
+ }
+ .tblborder {
+    background-color: #606030;
+    width: 10%;
+	color: #fff;
+}
+
+#creatingdiv{ display: inherit;
+width: 75%;
+margin: 10px;
+float: left;}
+
+label {
+width:10%;
+float:left;
+}
+
+
+#messagediv {
+width: 75%;
+margin: 10px;
+float: right;}
